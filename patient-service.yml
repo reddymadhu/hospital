@@ -1,1 +1,12 @@
 
+spring:
+  application:
+    name: patient-service
+    
+  
+server:
+  port: 8085
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:8085
