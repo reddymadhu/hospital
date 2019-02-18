@@ -1,6 +1,6 @@
 zuul:
   routes:
-    department: 
+    patient: 
       path: /patient/**
       serviceId: patient-service
 
